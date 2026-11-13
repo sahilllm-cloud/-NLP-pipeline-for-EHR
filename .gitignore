@@ -1,0 +1,38 @@
+# Existing exclusions
+*.part
+*.toml
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local original snapshot and unresolved LFS pointer placeholders
+original-source/
+Utils/*.pth
